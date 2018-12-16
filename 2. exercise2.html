@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
+<head>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style2.css" >
+    <title> Accordion assessment </title>
+    
+</head>
+<body >
+<h1> MindArc assessment on Accordion</h1>
 <div id="accordion">
-    <h3>Section 1</h3>
+    <h3 class="ui-accordion-header">Section 1</h3>
     <div>
         <p>
             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
@@ -11,7 +18,7 @@
             odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
         </p>
     </div>
-    <h3>Section 2</h3>
+    <h3 class="header">Section 2</h3>
     <div>
         <p>
             Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
@@ -20,7 +27,7 @@
             suscipit faucibus urna.
         </p>
     </div>
-    <h3>Section 3</h3>
+    <h3 class="header">Section 3</h3>
     <div>
         <p>
             Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
@@ -51,4 +58,12 @@
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#accordion").accordion({"collapsible":"true"});
+    });
+    
+</script>
 </html>
+© 2018 GitH

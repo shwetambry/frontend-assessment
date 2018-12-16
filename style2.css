@@ -1,0 +1,25 @@
+html {
+	background-image: url("wallpaper.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color: #fef9e7;
+	text-align: center;
+}
+
+#accordion .ui-accordion-header {
+	background: #edbb99;
+	color: #2f4f4f;
+	border-radius: 15px;
+}
+
+#accordion .ui-accordion-header-active {
+	background: #784212;
+	color: #fef9e7;
+}
+
+ #accordion div {
+	background: #fef9e7;
+	color: #2F4F4F;
+}
